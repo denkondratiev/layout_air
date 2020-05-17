@@ -331,8 +331,12 @@ h3 {
     margin-bottom: 8px; }
   .gallery__next {
     left: 88px; }
+    .gallery__next::before {
+      background: url(../images/slider/next.svg); }
   .gallery__prev {
     left: 48px; }
+    .gallery__prev::before {
+      background: url(../images/slider/prev.svg); }
   .gallery__next, .gallery__prev {
     position: absolute;
     width: 32px;
@@ -352,8 +356,7 @@ h3 {
       height: 9px;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
-      background: url(../images/slider/next.svg); }
+      transform: translate(-50%, -50%); }
 
 @-webkit-keyframes fade {
   from {
@@ -839,74 +842,74 @@ h3 {
   .box:nth-child(14) {
     left: 105%; }
   .box:nth-child(1) {
-    -webkit-animation-duration: 26s;
-            animation-duration: 26s; }
-  .box:nth-child(2) {
-    -webkit-animation-duration: 9s;
-            animation-duration: 9s; }
-  .box:nth-child(3) {
-    -webkit-animation-duration: 20s;
-            animation-duration: 20s; }
-  .box:nth-child(4) {
-    -webkit-animation-duration: 24s;
-            animation-duration: 24s; }
-  .box:nth-child(5) {
-    -webkit-animation-duration: 24s;
-            animation-duration: 24s; }
-  .box:nth-child(6) {
-    -webkit-animation-duration: 29s;
-            animation-duration: 29s; }
-  .box:nth-child(7) {
-    -webkit-animation-duration: 18s;
-            animation-duration: 18s; }
-  .box:nth-child(8) {
-    -webkit-animation-duration: 25s;
-            animation-duration: 25s; }
-  .box:nth-child(9) {
-    -webkit-animation-duration: 9s;
-            animation-duration: 9s; }
-  .box:nth-child(10) {
     -webkit-animation-duration: 28s;
             animation-duration: 28s; }
-  .box:nth-child(11) {
+  .box:nth-child(2) {
+    -webkit-animation-duration: 22s;
+            animation-duration: 22s; }
+  .box:nth-child(3) {
+    -webkit-animation-duration: 25s;
+            animation-duration: 25s; }
+  .box:nth-child(4) {
+    -webkit-animation-duration: 13s;
+            animation-duration: 13s; }
+  .box:nth-child(5) {
+    -webkit-animation-duration: 17s;
+            animation-duration: 17s; }
+  .box:nth-child(6) {
+    -webkit-animation-duration: 18s;
+            animation-duration: 18s; }
+  .box:nth-child(7) {
+    -webkit-animation-duration: 21s;
+            animation-duration: 21s; }
+  .box:nth-child(8) {
     -webkit-animation-duration: 8s;
             animation-duration: 8s; }
-  .box:nth-child(12) {
-    -webkit-animation-duration: 29s;
-            animation-duration: 29s; }
-  .box:nth-child(13) {
-    -webkit-animation-duration: 30s;
-            animation-duration: 30s; }
-  .box:nth-child(14) {
+  .box:nth-child(9) {
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s; }
+  .box:nth-child(10) {
     -webkit-animation-duration: 24s;
             animation-duration: 24s; }
+  .box:nth-child(11) {
+    -webkit-animation-duration: 29s;
+            animation-duration: 29s; }
+  .box:nth-child(12) {
+    -webkit-animation-duration: 18s;
+            animation-duration: 18s; }
+  .box:nth-child(13) {
+    -webkit-animation-duration: 26s;
+            animation-duration: 26s; }
+  .box:nth-child(14) {
+    -webkit-animation-duration: 17s;
+            animation-duration: 17s; }
   .box:nth-child(1) {
     -webkit-animation-delay: 1s;
             animation-delay: 1s; }
   .box:nth-child(2) {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s; }
-  .box:nth-child(3) {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s; }
-  .box:nth-child(4) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s; }
+  .box:nth-child(3) {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s; }
+  .box:nth-child(4) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s; }
   .box:nth-child(5) {
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s; }
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s; }
   .box:nth-child(6) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s; }
   .box:nth-child(7) {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s; }
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s; }
   .box:nth-child(8) {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s; }
+  .box:nth-child(9) {
     -webkit-animation-delay: 2s;
             animation-delay: 2s; }
-  .box:nth-child(9) {
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s; }
   .box:nth-child(10) {
     -webkit-animation-delay: 3s;
             animation-delay: 3s; }
@@ -914,11 +917,11 @@ h3 {
     -webkit-animation-delay: 3s;
             animation-delay: 3s; }
   .box:nth-child(12) {
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s; }
-  .box:nth-child(13) {
     -webkit-animation-delay: 1s;
             animation-delay: 1s; }
+  .box:nth-child(13) {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s; }
   .box:nth-child(14) {
     -webkit-animation-delay: 1s;
             animation-delay: 1s; }
